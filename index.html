@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pile ou face 2.0</title>
+
+    
+  <link rel="shortcut icon" type="image/png" href="lib/jasmine-3.6.0/jasmine_favicon.png">
+  <link rel="stylesheet" href="lib/jasmine-3.6.0/jasmine.css">
+
+  <script src="lib/jasmine-3.6.0/jasmine.js"></script>
+  <script src="lib/jasmine-3.6.0/jasmine-html.js"></script>
+  <script src="lib/jasmine-3.6.0/boot.js"></script>
+<script>
+        //________________________________________________________________________________________
+    // -------------------    Compter les voyelles d'un mot ------------
+    //
+    function compteVoyelles(p_mot) {
+    let count = 0;
+    for (let index = 0; index < p_mot.length; index++) {
+        
+        if (p_mot[index].toLowerCase() == 'a' || p_mot[index].toLowerCase() == 'e' || p_mot[index].toLowerCase() == 'i' ||p_mot[index].toLowerCase() == 'o' || p_mot[index].toLowerCase() == 'u' || p_mot[index].toLowerCase() == 'y') {
+        count+=1;
+        }
+    }
+    return count;
+}
+
+//_________________________________________--- TESTS  JS  ---_______________________________________________
+
+
+describe("Compter les voyelles d'un mot", function() {
+    // -------------  aeiou -----------------
+  it("affiche le nombre de voyelles dans la chaîne de caractères : aeiou ", function() {
+    expect(compteVoyelles('aeiou')).toBe(5);
+  });  
+});
+// -------------  azerty -----------------
+describe("Compter les voyelles d'un mot", function() {
+  it("affiche le nombre de voyelles dans la chaîne de caractères : azerty ", function() {
+    expect(compteVoyelles('azerty')).toBe(3);
+  });
+});
+  //  --------------  qsdfjklm  --------------
+  describe("Compter les voyelles d'un mot", function() {
+  it("affiche le nombre de voyelles dans la chaîne de caractères : qsdfjklm ", function() {
+    expect(compteVoyelles('qsdfjklm')).toBe(0);
+    });
+  });
+//
+//________________________________________________________________________________________
+</script>
+</head>
+<body>
+    
+</body>
+</html>
