@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-07T08:11:04.643Z" agent="5.0 (Windows)" etag="ARfMOHv_sIq92RdrgUHN" version="13.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-07T08:43:01.917Z" agent="5.0 (Windows)" etag="j7xoRfUd7fTcqERkwaX6" version="13.7.7" type="github">
   <diagram id="MrBrek0n3seMQUjIlNSO" name="Page-1">
     <mxGraphModel dx="2272" dy="1884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
       <root>
@@ -423,6 +423,14 @@
         </mxCell>
         <mxCell id="6F4W0MYa69xs5jA9rygy-143" value="Est parent de" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-25" y="3080" width="255" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="6F4W0MYa69xs5jA9rygy-144">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-290" y="3100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-144" value="&lt;div&gt;estce qu&#39;une personne est associé à au min.&amp;nbsp; à un mariage = 0&lt;br&gt;&lt;/div&gt;&lt;div&gt;est-ce que plusieurs personne sont associé à au max. un ou plusieurs mariage = N&lt;br&gt;&lt;/div&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;strokeColor=#000000;glass=0;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="-495" y="3150" width="255" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
