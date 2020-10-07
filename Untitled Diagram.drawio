@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-07T07:39:18.759Z" agent="5.0 (Windows)" etag="IbKu0RrI15-9olpy6aCF" version="13.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-07T07:56:44.669Z" agent="5.0 (Windows)" etag="YYV4INVEUdtYJYREK3Ia" version="13.7.7" type="github">
   <diagram id="MrBrek0n3seMQUjIlNSO" name="Page-1">
-    <mxGraphModel dx="1422" dy="1884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
+    <mxGraphModel dx="2272" dy="1884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -299,8 +299,100 @@
         <mxCell id="6F4W0MYa69xs5jA9rygy-102" value="CORRECTIOn" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="1830" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="6F4W0MYa69xs5jA9rygy-103" value="Comme on a 2 N au même endroit de la cardinalité : on doit définir de nouveaux attributs = Date début / fin" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="6F4W0MYa69xs5jA9rygy-103" value="Comme on a 2 N au même endroit de la cardinalité : on doit définir de nouveaux attributs et donc une TABLE INTERMEDIAIRE = Date début / fin" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="300" y="2030" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-105" value="" style="endArrow=classic;html=1;exitX=0;exitY=0;exitDx=125;exitDy=110;exitPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="6F4W0MYa69xs5jA9rygy-103">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="2410" as="sourcePoint" />
+            <mxPoint x="260" y="2230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-106" value="" style="endArrow=classic;html=1;exitX=0;exitY=0;exitDx=125;exitDy=110;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="6F4W0MYa69xs5jA9rygy-103" target="6F4W0MYa69xs5jA9rygy-100">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="2410" as="sourcePoint" />
+            <mxPoint x="530" y="2360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-107" value="&lt;div&gt;une personne possede au moins 1 véhicule &lt;br&gt;&lt;/div&gt;&lt;div&gt;Plusieurs personnes possédent au moins un véhicule &lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="2260" width="420" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-108" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;CLIENT&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ Attribute1: Type&lt;br&gt;+ Attribute2: Type&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="2540" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-109" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="6F4W0MYa69xs5jA9rygy-108">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-110" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;CHAMBRE&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Numero&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;ETAGE&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="2540" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-111" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="6F4W0MYa69xs5jA9rygy-110">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-112" value="&lt;div&gt;une personne possede au moins une chambre&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;= &quot;Est-ce que quand je créé un client dans la BDD il a déjà une chambre&quot; = 0&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Plusieurs personnes possédent au moins une chambre&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="2700" width="470" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-116" value="0;N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="2540" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-118" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="6F4W0MYa69xs5jA9rygy-117" target="6F4W0MYa69xs5jA9rygy-110">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="60" y="2587.5" as="sourcePoint" />
+            <mxPoint x="360" y="2555" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="2588" />
+              <mxPoint x="250" y="2585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-119" value="Comme on a 2 N au même endroit de la cardinalité : on doit définir de nouveaux attributs et donc une TABLE INTERMEDIAIRE = Date début / fin" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#f8cecc;strokeColor=#b85450;position2=0.96;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="2410" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-120" value="0;N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="362" y="2540" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-117" value="&lt;div&gt;RESERVE&lt;/div&gt;&lt;div&gt;________&lt;/div&gt;&lt;div&gt;Date_debut/fin&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="2520" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-121" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" target="6F4W0MYa69xs5jA9rygy-117">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="60" y="2587.5" as="sourcePoint" />
+            <mxPoint x="480" y="2585" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="6F4W0MYa69xs5jA9rygy-122" target="6F4W0MYa69xs5jA9rygy-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-122" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;PERSONNE&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;SSN&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Date naissance&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Date de mort&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="3000" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-123" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="6F4W0MYa69xs5jA9rygy-122">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-126" value="0;N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="3020" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="6F4W0MYa69xs5jA9rygy-129" target="6F4W0MYa69xs5jA9rygy-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-129" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;Parentalité&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="2980" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-132" value="0;N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="3110" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=40;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="6F4W0MYa69xs5jA9rygy-134" target="6F4W0MYa69xs5jA9rygy-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-134" value="Si on met un 1 on implique le fait que l&#39;on doit inclure le parent du parent du parent ... Donc on met 0 " style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#f8cecc;strokeColor=#b85450;position2=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="3130" width="250" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
