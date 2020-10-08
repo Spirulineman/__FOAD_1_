@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-08T07:24:43.964Z" agent="5.0 (Windows)" etag="YLMFd8GfgcbmVAGCj3Cd" version="13.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-08T12:41:02.029Z" agent="5.0 (Windows)" etag="Q88eROK-OydiYfXBlmkj" version="13.7.7" type="github">
   <diagram id="MrBrek0n3seMQUjIlNSO" name="Page-1">
-    <mxGraphModel dx="1558" dy="1453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
+    <mxGraphModel dx="2272" dy="1884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -774,6 +774,34 @@
         </mxCell>
         <mxCell id="6F4W0MYa69xs5jA9rygy-268" value="&lt;div&gt;SELECT *&lt;/div&gt;&lt;div&gt;FROM Client , facture, ligne_facture&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;" vertex="1" parent="1">
           <mxGeometry x="-800" y="5260" width="350" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-269" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;FACTURE&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;u&gt;ID&lt;/u&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;Date&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;u&gt;ID_CLIENT&lt;/u&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;glass=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="5470" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-270" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="6F4W0MYa69xs5jA9rygy-269">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-273" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="6F4W0MYa69xs5jA9rygy-271" target="6F4W0MYa69xs5jA9rygy-269">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-271" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;CLIENT&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;font color=&quot;#FF0000&quot;&gt;&lt;u&gt;ID&lt;/u&gt;&lt;/font&gt;&lt;br&gt;Nom&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;rounded=1;shadow=1;glass=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="5520" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-272" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="6F4W0MYa69xs5jA9rygy-271">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-274" value="&lt;div&gt;= &amp;lt; &amp;gt; LIKE &lt;br&gt;&lt;/div&gt;&lt;div&gt;IN (1,2,3,4)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-695" y="5460" width="470" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-275" value="SELECT * FROM CLIENT WHERE ID NOT IN (SELECT ID CLIENT FROM FACTURE)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="5660" width="470" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-276" value="&lt;div&gt;SELECT *&lt;/div&gt;&lt;div&gt;AS CLIENT AS C1, CLIENT AS C2&lt;/div&gt;&lt;div&gt;WHERE C.NOM&lt;/div&gt;&lt;div&gt;AND C2.NOM &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;QUESTION 10 / POKEMON&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="5740" width="400" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
