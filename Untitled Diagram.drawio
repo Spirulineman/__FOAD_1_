@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-08T13:47:18.988Z" agent="5.0 (Windows)" etag="8sZ6ZdBzzPlvo0CMkdiR" version="13.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-08T13:48:36.279Z" agent="5.0 (Windows)" etag="h8I5QI0IjPzPja5evLQ0" version="13.7.7" type="github">
   <diagram id="MrBrek0n3seMQUjIlNSO" name="Page-1">
     <mxGraphModel dx="2523" dy="2022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
       <root>
@@ -887,8 +887,8 @@
         <mxCell id="6F4W0MYa69xs5jA9rygy-304" value="POSSESSION&lt;br&gt;__________&lt;br&gt;DATE_DEBUT&lt;br&gt;DATE_FIN" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=1;glass=0;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="-245" y="6511" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6F4W0MYa69xs5jA9rygy-308" value="Reprise du cas des chiens : on ne peut pas créeer de race s&#39;il n&#39;y a pas de pokémons dans la table POKEMON: en mettant 1 on génère une boucle infinie, avec 0 on permet qu&#39;il n&#39;y est pas de race " style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};shadow=1;glass=0;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-724" y="6304" width="1110" height="30" as="geometry" />
+        <mxCell id="6F4W0MYa69xs5jA9rygy-308" value="Reprise du cas des chiens : on ne peut pas créeer de race s&#39;il n&#39;y a pas de pokémons dans la table POKEMON: en mettant 1 on génère une boucle infinie, avec 0 on permet qu&#39;il n&#39;y est pas de races... " style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};shadow=1;glass=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="6210" width="280" height="92" as="geometry" />
         </mxCell>
         <mxCell id="6F4W0MYa69xs5jA9rygy-309" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" target="6F4W0MYa69xs5jA9rygy-308" parent="1" source="6F4W0MYa69xs5jA9rygy-295">
           <mxGeometry relative="1" as="geometry">
