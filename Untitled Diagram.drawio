@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-08T15:25:30.193Z" agent="5.0 (Windows)" etag="lV4OQulOCjBKwGAgm4n5" version="13.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-09T06:46:13.522Z" agent="5.0 (Windows)" etag="6a-9yLloLitEzYl4MasK" version="13.7.7" type="github">
   <diagram id="MrBrek0n3seMQUjIlNSO" name="Page-1">
     <mxGraphModel dx="2272" dy="1884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
       <root>
@@ -946,7 +946,7 @@
         <mxCell id="6F4W0MYa69xs5jA9rygy-349" value="POSSESSION" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=1;glass=0;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="-247.5" y="7294" width="187.5" height="156" as="geometry" />
         </mxCell>
-        <mxCell id="6F4W0MYa69xs5jA9rygy-350" value="ID (PK)" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#333333;" vertex="1" parent="6F4W0MYa69xs5jA9rygy-349">
+        <mxCell id="6F4W0MYa69xs5jA9rygy-350" value="ID (PK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6F4W0MYa69xs5jA9rygy-349">
           <mxGeometry y="26" width="187.5" height="26" as="geometry" />
         </mxCell>
         <mxCell id="6F4W0MYa69xs5jA9rygy-351" value="ID_POKEMON_POSS (F)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6F4W0MYa69xs5jA9rygy-349">
@@ -964,7 +964,7 @@
         <mxCell id="6F4W0MYa69xs5jA9rygy-358" value="COMBAT" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=1;glass=0;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-420" y="7610" width="210" height="182" as="geometry" />
         </mxCell>
-        <mxCell id="6F4W0MYa69xs5jA9rygy-359" value="ID  (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6F4W0MYa69xs5jA9rygy-358">
+        <mxCell id="6F4W0MYa69xs5jA9rygy-359" value="ID  (PK)" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6F4W0MYa69xs5jA9rygy-358">
           <mxGeometry y="26" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="6F4W0MYa69xs5jA9rygy-360" value="DATE_DEBUT_COMBAT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6F4W0MYa69xs5jA9rygy-358">
@@ -1002,6 +1002,9 @@
               <mxPoint x="-260" y="7365" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6F4W0MYa69xs5jA9rygy-375" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;fillColor=#dae8fc;strokeColor=#6c8ebf;entryX=0.821;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6F4W0MYa69xs5jA9rygy-359" target="6F4W0MYa69xs5jA9rygy-344">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
