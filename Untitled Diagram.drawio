@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T14:06:31.030Z" agent="5.0 (Windows)" etag="JfVuGJ7p7kfbB0U1Liyv" version="14.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-19T14:30:27.842Z" agent="5.0 (Windows)" etag="XFyyIWphEpZqjclZ_0ZH" version="14.2.4" type="github">
   <diagram id="MrBrek0n3seMQUjIlNSO" name="Page-1">
     <mxGraphModel dx="3731" dy="2207" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
       <root>
@@ -1737,6 +1737,45 @@
         </mxCell>
         <mxCell id="RtuZ7AFic7yitA7nOzQK-2" value="&lt;b style=&quot;font-size: 22px&quot;&gt;&lt;span style=&quot;line-height: 107% ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;25/01 -&amp;nbsp; Symfony - site d&#39;enchères leboncoin/ebay&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-810" y="11050" width="610" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RtuZ7AFic7yitA7nOzQK-3" value="&lt;font style=&quot;font-size: 27px&quot;&gt;Utilisateur&lt;/font&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="11170" width="200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="RtuZ7AFic7yitA7nOzQK-4" value="Relation" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RtuZ7AFic7yitA7nOzQK-3" target="RtuZ7AFic7yitA7nOzQK-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-990" y="11290" as="sourcePoint" />
+            <mxPoint x="-830" y="11290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RtuZ7AFic7yitA7nOzQK-5" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="RtuZ7AFic7yitA7nOzQK-4">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RtuZ7AFic7yitA7nOzQK-6" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="RtuZ7AFic7yitA7nOzQK-4">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RtuZ7AFic7yitA7nOzQK-7" value="&lt;font style=&quot;font-size: 32px&quot;&gt;Annonces&lt;/font&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="11170" width="200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="RtuZ7AFic7yitA7nOzQK-8" value="&lt;div&gt;&lt;font style=&quot;font-size: 32px&quot;&gt;Enchères départ &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px&quot;&gt;durée déterminée&lt;/font&gt;&lt;/div&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="11170" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="RtuZ7AFic7yitA7nOzQK-9" value="Relation" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RtuZ7AFic7yitA7nOzQK-7" target="RtuZ7AFic7yitA7nOzQK-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-580" y="11320" as="sourcePoint" />
+            <mxPoint x="-434.37" y="11289.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RtuZ7AFic7yitA7nOzQK-10" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="RtuZ7AFic7yitA7nOzQK-9">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RtuZ7AFic7yitA7nOzQK-11" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="RtuZ7AFic7yitA7nOzQK-9">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RtuZ7AFic7yitA7nOzQK-12" value="&lt;font style=&quot;font-size: 32px&quot;&gt;P&lt;/font&gt;&lt;font style=&quot;font-size: 32px&quot;&gt;rix Fixe&lt;br&gt;&lt;/font&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="11480" width="380" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="RtuZ7AFic7yitA7nOzQK-13" value="&lt;div&gt;&lt;font style=&quot;font-size: 32px&quot;&gt;Enchères + vente &lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px&quot;&gt;immédiate&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 32px&quot;&gt;durée déterminée&lt;/font&gt;&lt;/div&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="11770" width="380" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
